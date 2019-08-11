@@ -1,0 +1,138 @@
+.veg-type-cards {
+    margin-bottom: 0rem !important;
+    
+ 
+    
+
+
+    &__single {
+        height: auto;
+        
+    }
+
+    &__list {
+        @include breakpoint(tablet){&{
+            display: flex;
+            flex-flow: wrap;
+            width: 100%;
+            margin: 0 0 0 0;
+        }}
+        list-style-type: none !important;
+        @include fw()
+        
+       
+    
+
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        &-item {
+            width: 300px;
+            text-align: center;
+            margin-top: 1rem;
+            
+            
+        }
+    }
+
+    &__content {
+        width: 300px;
+        padding: 1rem;
+        padding-bottom: 2.2rem;
+    //    margin: 1rem 0.5rem;
+        border-radius: 5%;
+        z-index: -1;
+        
+        @each $veg-type in $veg-types {
+            &--#{$veg-type} {
+                background: vegetable($veg-type, base) !important;
+                @include box(vegetable($veg-type, shadow))
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    &__title {
+        margin-top: 4rem !important;
+        color: white !important;
+    }
+
+    &__description {
+        color: white !important;
+            line-height: 23px;
+    letter-spacing: 0px;
+    }
+
+    &__link {
+ 
+    }
+
+    &__button {
+      
+  
+
+        @each $veg-type in $veg-types {
+            &--#{$veg-type} {
+                @include button(vegetable($veg-type, base), white)
+                margin-top: 1.2rem;
+                margin-bottom: -.4rem;
+                
+            }
+        }
+
+       
+    }
+
+    &__image {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: relative;
+    //    left: .5rem;
+        
+
+        &-container {
+            margin-top: -5rem; 
+            position: relative;
+            top: 5rem;
+            
+
+        }
+
+        @each $veg-type in $veg-types {
+            &--#{$veg-type} {
+            border: 8px solid vegetable($veg-type, base) !important;
+            }
+        }
+    }
+}
+
+
+
+
+
+@include breakpoint(desktop) {
+    .veg-type-cards {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+
+        &__list {
+
+
+
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+        }
+
+    }
+}
+
+.container_wrap {
+    border-top-width: 0px !important;
+}

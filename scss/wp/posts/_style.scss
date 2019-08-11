@@ -1,0 +1,19 @@
+span.blog-tags.minor-meta {
+    visibility: hidden;
+}
+
+span.blog-categories.minor-meta, #main > div > div > main > article > div.entry-content-wrapper.clearfix.standard-content > header > span > span.text-sep.text-sep-comment, span.comment-container.minor-meta, #main > div > div > main > article > div.entry-content-wrapper.clearfix.standard-content > header > span > span.text-sep.text-sep-date, span.text-sep.text-sep-comment, span.text-sep.text-sep-cat {
+    display: none;
+}
+
+header.entry-content-header {
+  
+    & h1 {
+        font-size: 2.4rem;
+        margin-bottom: .5rem;
+    }
+}
+
+img.attachment-entry_without_sidebar.size-entry_without_sidebar.wp-post-image {
+    margin-bottom: .5rem;
+}

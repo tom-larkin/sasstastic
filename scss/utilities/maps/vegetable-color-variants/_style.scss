@@ -1,0 +1,74 @@
+// Theme color variable map
+
+$veg-types: artisan-tomato, garlic, herb, leafy-green, leafy-red, microgreen, onion, pepper, root;
+
+$vegetable: (
+  artisan-tomato: (
+    base: $artisan-tomatoes,
+    light: lighten($artisan-tomatoes, $theme-shade-amount),
+    dark: darken($artisan-tomatoes, $theme-shade-amount),
+    trans: transparentize($artisan-tomatoes, $theme-trans-amount),
+    shadow: transparentize($artisan-tomatoes, $theme-shadow-amount)
+  ),
+  garlic: (
+    base: $garlic,
+    light: lighten($garlic, $theme-shade-amount),
+    dark: darken($garlic, $theme-shade-amount),
+    trans: transparentize($garlic, $theme-trans-amount),
+    shadow: transparentize($garlic, $theme-shadow-amount),
+  ),
+  herb: (
+    base: $herbs,
+    light: lighten($herbs, $theme-shade-amount),
+    dark: darken($herbs, $theme-shade-amount),
+    trans: transparentize($herbs, $theme-trans-amount),
+    shadow: transparentize($herbs, $theme-shadow-amount),
+  ),
+  leafy-green: (
+    base: $leafy-greens,
+    light: lighten($leafy-greens, $theme-shade-amount),
+    dark: darken($leafy-greens, $theme-shade-amount),
+    trans: transparentize($leafy-greens, $theme-trans-amount),
+    shadow: transparentize($leafy-greens, $theme-shadow-amount),
+  ),
+  leafy-red: (
+    base: $leafy-reds,
+    light: lighten($leafy-reds, $theme-shade-amount),
+    dark: darken($leafy-reds, $theme-shade-amount),
+    trans: transparentize($leafy-reds, $theme-trans-amount),
+    shadow: transparentize($leafy-reds, $theme-shadow-amount),
+  ),
+
+  microgreen: (
+    base: $microgreens,
+    light: lighten($microgreens, $theme-shade-amount),
+    dark: darken($microgreens, $theme-shade-amount),
+    trans: transparentize($microgreens, $theme-trans-amount),
+    shadow: transparentize($microgreens, $theme-shadow-amount),
+  ),
+
+  onion: (
+    base: $onions,
+    light: lighten($onions, $theme-shade-amount),
+    dark: darken($onions, $theme-shade-amount),
+    trans: transparentize($onions, $theme-trans-amount),
+    shadow: transparentize($onions, $theme-shadow-amount),
+  ),
+
+  pepper: (
+    base: $peppers,
+    light: lighten($peppers, $theme-shade-amount),
+    dark: darken($peppers, $theme-shade-amount),
+    trans: transparentize($peppers, $theme-trans-amount),
+    shadow: transparentize($peppers, $theme-shadow-amount),
+  ),
+
+  root: (
+    base: $roots,
+    light: lighten($roots, $theme-shade-amount),
+    dark: darken($roots, $theme-shade-amount),
+    trans: transparentize($roots, $theme-trans-amount),
+    shadow: transparentize($roots, $theme-shadow-amount),
+  ),
+  
+);

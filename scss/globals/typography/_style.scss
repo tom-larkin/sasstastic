@@ -1,7 +1,6 @@
 /* Typeface Vendor Prefixing */
 
-
-// USE scss/utilities/variables/typography-presets to configure most of the settings in this section
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700,900&display=swap');
 
 *, html, body {
     font-size: $base-font-size;

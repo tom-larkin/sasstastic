@@ -1,0 +1,37 @@
+.hero {
+
+    &__title {
+        color: white !important; 
+    }
+
+    &__description {
+        color: white;
+    }
+
+    &__buttons {
+        
+        margin-right: .5rem;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    &__button {
+       
+        &--left{
+            @include button(color(green, base), solid)
+        }
+        &--right {
+            @include button(color(red, base), solid)
+        }
+    }
+
+}
+
+@include breakpoint(mobile){
+    .hero { 
+        &__button {
+            font-size: .8rem !important;
+        }
+    }
+}

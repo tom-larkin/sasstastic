@@ -1,0 +1,154 @@
+.single-vegetables main.content.units.av-content-small.alpha {
+    margin-top: -2.2rem;
+
+    
+
+
+}
+
+@include breakpoint(mobile){
+.single-vegetables main.content.units.av-content-small.alpha {
+    margin-top: -3.5rem !important;
+}
+}
+
+
+
+
+
+
+.veg {
+   
+    &-name, &-latin, &-type, &-season, &-availability {
+        color: white !important;
+        font-weight:  bold;
+        text-transform: none !important;
+    }
+
+    &-hero-top, &-hero-bottom, &-seasons, &-seasons-container {
+        display: flex;
+    }
+
+    &-hero-top, &-hero-bottom {
+        justify-content: space-between;
+
+    }
+
+    &-type {
+        border-radius: .25rem;
+        padding: .01rem .5rem;
+        font-weight: bold !important;
+    }
+
+
+    &-name {
+        margin-bottom: -1rem;
+        font-size: 1.6rem;
+    }
+
+    &-latin {
+        font-size: .9rem;
+    }
+
+    &-latin, &-name {
+        box-shadow: 21px 10px 81px -34px rgba(0,0,0,0.96) !important;
+    }
+
+    &-type {
+        margin-top: .05rem;
+        font-size: .9rem;
+    }
+
+    &-hero-bottom {
+        width: 100%;
+    
+        height: 1.5rem;
+    }
+
+    &-hero-top {
+        height: 375px;
+    }
+
+    &-seasons-container {
+        width: 60%;
+        
+            
+        
+    }
+
+    &-season {
+        margin-left: 1.2rem;
+        margin-right: .05rem;
+
+        & a {
+            color: white !important;
+            font-size: .8rem;
+            font-weight: bold !important;
+           
+        }
+    }
+
+    &-availability {
+        font-size: .8rem;
+        font-weight: bold !important;
+        margin-top: .15rem !important;
+      
+    }
+
+
+    &-availability, &-season {
+        margin-bottom: 0px !important;
+        margin-top: -.15rem;
+        padding: 0px !important;
+    }
+
+
+    &-hero-container, &-hero-bottom {
+        @include fw()
+    }
+
+    @include breakpoint(mobile){
+        &-hero-container, &-hero-bottom {
+        
+          
+            max-width: none !important;
+           
+            display: block !important;
+            
+
+            
+        }
+
+        &-hero-bottom  {
+           // margin-left: -1.95rem !important;
+    
+        }
+
+        &-hero-container {
+            margin-bottom: -.05rem !important;
+           // margin-left: -1.95rem !important;
+            margin-right: auto !important;
+            margin-top: -2.5rem !important;
+        }
+
+        &-hero-side-1 {
+            width: 50% !important;
+        }
+    }   
+}
+
+
+
+p.veg-season a:hover {
+    color: white !important;
+}
+p.veg-type a {
+    color: white !important;
+}
+
+p.veg-availability {
+    margin-right: 1.2rem;
+    position: relative;
+    top: -1.5rem;
+    text-align: right;
+}

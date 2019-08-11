@@ -1,0 +1,5 @@
+.contact-us {
+    & input.button {
+        @include button(color(green, base), solid)
+    }
+}
