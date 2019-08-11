@@ -1,8 +1,7 @@
 # sasstastic
 A modular, lightweight, and unopinionated Sass framework. Created for Wordpress, but extendable to any stack
 
-- Information
-Description: This project aims to make Sass as modular as possible, and also make it easy to use with Wordpress. Simply add your child-theme header to the main style.scss file. Once your sass is compiled it will overwrite the child-theme's css file. 
+This project aims to make Sass as modular as possible, and also make it easy to use with Wordpress. Simply add your child-theme header to the main style.scss file. Once your sass is compiled it will overwrite the child-theme's css file. 
 
 Version: 0.0.1
 Author: Thomas Larkin
