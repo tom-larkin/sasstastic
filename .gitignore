@@ -35,6 +35,7 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+*.php
 
 # Windows shortcuts
 *.lnk
