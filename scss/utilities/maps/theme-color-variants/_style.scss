@@ -1,0 +1,30 @@
+// Theme color variable map
+
+$theme: (
+  primary: (
+    base: $theme-primary,
+    light: lighten($theme-primary, $theme-shade-amount),
+    dark: darken($theme-primary, $theme-shade-amount),
+    trans: transparentize($theme-primary, $theme-trans-amount)
+  ),
+  secondary: (
+    base: $theme-secondary,
+    light: lighten($theme-secondary, $theme-shade-amount),
+    dark: darken($theme-secondary, $theme-shade-amount),
+    trans: transparentize($theme-secondary, $theme-trans-amount)
+  ),
+  highlight: (
+    base: $theme-highlight,
+    light: lighten($theme-highlight, $theme-shade-amount),
+    dark: darken($theme-highlight, $theme-shade-amount),
+    trans: transparentize($theme-highlight, $theme-trans-amount)
+  ),
+  text: (
+    heading: $theme-text,
+    paragraph: lighten($theme-text, $theme-text-contrast),
+  ),
+  background: (
+    main: invert($theme-text),
+    alternate: $theme-text-mode($theme-text, 85%)
+  )
+);

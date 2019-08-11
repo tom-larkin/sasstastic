@@ -1,0 +1,72 @@
+@mixin button($button-color, $button-fill) {
+    margin-top: .8rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    font-family: montserrat;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: 0rem;
+    @include box($button-color, default)
+    &:hover{
+        @include box($button-color, close)
+        transition: all .4s;
+        top: -.14rem;
+        transition-timing-function: ease-in;
+    }
+@if $button-fill==solid {
+background: $button-color;
+color: white;
+border: 0px solid white !important;
+@include box(rgba(0, 0, 0, 0.21), default)
+&:hover{
+    @include box(rgba(0, 0, 0, 0.21), close)
+    border: 0px solid white !important;
+    background: transparentize($button-color, .2) !important;
+    color: white;
+}
+}
+
+@else if $button-fill==none {
+background: #ffffff00;
+color: $button-color;
+border: 4px solid $button-color;
+@include box(rgba(0, 0, 0, 0.21), default)
+&:hover{
+    @include box(rgba(0, 0, 0, 0.21), close)
+    background: transparentize(#ffffff, 1) !important;
+    color: $button-color;
+    border: 4px solid transparentize($button-color, .2);
+    
+}
+}
+
+@else if $button-fill==none-white {
+background: #ffffff00;
+color: white;
+border: 4px solid white;
+&:hover{
+    background: transparentize(#ffffff, 1) !important;
+    color: white;
+    border: 4px solid transparentize($white, .2);
+    
+}
+}
+
+@else if $button-fill==white {
+color: $button-color;
+background-color: white;
+border: 0px solid white !important;
+@include box($button-color, default)
+&:hover{
+    border: 0px solid white !important;
+    @include box($button-color, close)
+    background: transparentize(#ffffff, .2) !important;
+    color: $button-color;
+    
+
+}
+}
+}
+
+

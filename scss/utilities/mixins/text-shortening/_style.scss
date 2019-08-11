@@ -1,0 +1,13 @@
+@mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+
+// Truncates text with an elipsis (...)
+//
+// ? https://www.developerdrive.com/10-best-sass-mixins-for-web-developers/
+//
+// * div {
+// *   @include text-shorten();
+// * }

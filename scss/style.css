@@ -1,0 +1,301 @@
+/*
+
+Theme Name: Enfold Child
+Description: This is the output file for the sass located at /[THEME]/scss/style.scss
+Version: 1.0
+Author: Thomas Larkin
+Author URI: https://specialops.io
+Template: enfold
+
+*/
+/*
+
+THESE STYLES ARE GENERATED AUTOMATICALLY VIA SASS. ANY CHANGES TO THIS DOCUMENT WILL BE OVERWRITTEN.
+PLEASE CONTACT DEV@SPECIALOPS.IO FOR ASSISTANCE CUSTOMIZING YOUR SITE
+
+*/
+/* //* Styles */
+/* //* Layout */
+/* //! LAYOUT */
+/* //* Globals */
+/* //* Layout */
+/* //! LAYOUT */
+/* //* Typography */
+/* Typeface Vendor Prefixing */
+*, html, body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* END TYPEFACE VENDOR PREFIXING */
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 36px;
+  color: #262626;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.92308rem;
+  margin-bottom: 18.46154px;
+}
+
+h3 {
+  font-size: 1.66667rem;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 1.47059rem;
+  margin-bottom: 14.11765px;
+}
+
+h5 {
+  font-size: 1.38889rem;
+  margin-bottom: 13.33333px;
+}
+
+h6 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+/* END HEADERS */
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+  font-size: 1.0625rem;
+  line-height: 1.5em;
+  color: #595959;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* END PARAGRAPHS */
+/* Links */
+.link {
+  text-decoration: none !important;
+  display: inline;
+  padding-bottom: 2px;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, white 0%, #81A25A 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.link:hover {
+  background-size: 100% 2px;
+}
+
+/* END LINKS */
+/* Horizontal Lines */
+hr {
+  height: 1px;
+  margin: 30px 0;
+  border: none;
+  background-color: #bfbfbf;
+}
+
+/* END HORIZONTAL LINES */
+/* Blockquotes */
+blockquote {
+  margin: 30px 0;
+  font-size: 1.4375rem;
+  line-height: 1.5em;
+  color: #262626;
+  text-align: center;
+  font-style: italic;
+}
+
+/* END BLOCKQUOTES */
+/* //! Typography */
+/* //! GLOBALS */
+/* //* Sections */
+/* //* Header */
+/* //! HEADER */
+/* //* Nav */
+/* //! NAV */
+/* //* Body */
+/* //! BODY */
+/* //* Sidebar */
+/* //* Dividers */
+.sidebar-line {
+  margin-top: -1rem !important;
+  margin-bottom: -1rem !important;
+}
+
+.sidebar-line--1 {
+  border: 8px solid #B80945 !important;
+}
+
+.sidebar-line--2 {
+  border: 8px solid #81A25A !important;
+}
+
+.sidebar-line--3 {
+  border: 8px solid #5A8CA2 !important;
+}
+
+.sidebar-line--4 {
+  border: 8px solid #612D4A;
+}
+
+section#custom_html-9 {
+  display: none !important;
+}
+
+/* //! DIVIDERS */
+/* //* Widgets */
+/* //! WIDGETS */
+/* //! SIDEBAR */
+/* //* Footer */
+/* //! FOOTER */
+/* //* Socket */
+/* //! SOCKET */
+/* //! Sections */
+/* //* Components */
+/* //* Buttons */
+/* //! Buttons */
+/* //* Containers */
+/* //! CONTAINERS */
+/* //* Forms */
+/* //! FORMS */
+/* //* Lists */
+/* //! LISTS */
+/* //* Tables */
+/* //! TABLES */
+/* //! COMPONENTS */
+/* //* Wordpress */
+/* Base WP */
+/* END BASE WP */
+/* //* Pages */
+/* //* Home */
+/* //! HOME */
+/* //! PAGES */
+/* //* Posts */
+/* //! END POSTS */
+/* //* Archives */
+/* //* Custom */
+/* //* Vegetables */
+.img-wrap {
+  margin-bottom: -1.4rem;
+  border-radius: .25rem;
+}
+
+.img-wrap img {
+  width: 100%;
+  border-radius: .25rem;
+}
+
+.typeArchiveIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: -1.5rem;
+}
+
+.typeArchiveIcons__item--icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (min-width: 600px) {
+  .img-wrap.third {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 .5%;
+    width: 50%;
+    float: left;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .img-wrap.third {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 .5%;
+    width: 33.33%;
+    float: left;
+  }
+}
+
+.veg-archive-name-link {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  z-index: 2 !important;
+}
+
+.veg-archive-image-link {
+  z-index: -1 !important;
+}
+
+.veg-archive-image {
+  -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
+          box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
+}
+
+a.veg-archive-name-link {
+  color: white !important;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+/* //! VEGETABLES */
+/* //! CUSTOM */
+/* //! ARCHIVES */
+/* //* Taxonomies */
+/* //! TAXONOMIES */
+/* //* Admin Area */
+/* //* Dashboard */
+/* //! DASHBOARD */
+/* //* Menu Bar */
+/* //! MENU BAR */
+/* //* Login */
+/* //! LOGIN */
+/* //* Sidebar */
+/* //! SIDEBAR */
+/* //! ADMIN AREA */
+/* //* Woo Commerce */
+/* //* Cart */
+/* //! CART */
+/* //* Checkout */
+/* //! CHECKOUT */
+/* //* Products */
+/* //* Categories */
+/* //! CATEGORIES */
+/* //* Individuals */
+/* //! INDIVIDUALS*/
+/* //! END PRODUCTS */
+/* //* Store */
+/* //! STORE */
+/* //! WOO COMMERCE */
+/* //! WORDPRESS */
+/* //* Sandbox */
+/* //! END SANDBOX */
+/* //! END STYLES */
+/*# sourceMappingURL=style.css.map */

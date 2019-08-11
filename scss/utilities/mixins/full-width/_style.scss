@@ -1,0 +1,8 @@
+@mixin fw($margin:-1.94rem) {
+    
+    @include breakpoint (mobile){&{
+        width: 100vw !important;
+        margin-left: $margin !important;
+        
+        }}
+  }

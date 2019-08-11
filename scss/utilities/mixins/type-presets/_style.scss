@@ -1,0 +1,7 @@
+@mixin italic {
+    font-style: italic;
+}
+
+@mixin bold {
+    font-weight: $font-weight-bold;
+}

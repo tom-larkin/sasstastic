@@ -1,0 +1,15 @@
+@mixin abs-position ($top, $right, $bottom, $left) {
+    position: absolute; 
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+ }
+ 
+ // Absolutely position an element with a few simple parameters
+ //
+ // ? https://www.developerdrive.com/10-best-sass-mixins-for-web-developers/
+ //
+ // * div {
+ // *  @include abs-position(100px, 100px, auto, auto);
+ // *  }

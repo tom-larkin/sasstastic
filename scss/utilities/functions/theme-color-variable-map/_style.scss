@@ -1,0 +1,12 @@
+// Theme color map `theme(primary, base)'
+
+@function theme($theme-name, $theme-variant:null) {
+  // color variant is optional
+  @if ($theme-variant != null) {
+    // map inception
+    @return map-get(map-get($theme, $theme-name), $theme-variant);
+  } @else {
+    @return map-get($theme, $theme-name);
+  }
+}
+

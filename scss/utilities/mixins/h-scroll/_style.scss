@@ -1,0 +1,109 @@
+$buttons: 'button, input[type="button"], input[type="submit"], .button, .avia-button, .btn';@mixin h-scroll($relationship, $snap) {
+
+    @if $relationship==parent and $snap==center {
+        @include fw()
+        @include breakpoint(mobile) {
+            & {
+                list-style-type: none !important;
+                display: flex;
+               
+                overflow-x: auto;
+                flex-wrap: no-wrap;
+                scroll-snap-type: x mandatory;
+                -webkit-scroll-snap-destination: 50% 50%;
+                scroll-snap-destination: 50% 50%;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    }
+
+    @else if $relationship==child and $snap==center {
+        @include breakpoint(mobile) {
+            & {
+                flex: 0 0 auto;
+                -webkit-scroll-snap-coordinate: 50% 50%;
+                scroll-snap-coordinate: 50% 50%;
+                scroll-snap-align: center;
+            }
+        }
+    }
+
+    @else if $relationship==parent and $snap==none {
+        @include fw()
+        @include breakpoint(mobile) {
+            & {
+                display: flex;
+                list-style-type: none !important;
+               
+                overflow-x: auto;
+                flex-wrap: no-wrap;
+               
+            }
+
+        }
+    }
+
+    @else if $relationship==child and $snap==none {
+        @include breakpoint(mobile) {
+            & {
+                flex: 0 0 auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    }
+
+    @else if $relationship==parent and $snap==left {
+        @include fw()
+        @include breakpoint(mobile) {
+            & {
+                display: flex;
+                list-style-type: none !important;
+                
+                flex-wrap: no-wrap;
+                -webkit-scroll-snap-type: mandatory;
+                scroll-snap-type: x mandatory;
+                -webkit-scroll-snap-points-x: repeat(100%);
+                scroll-snap-points-x: repeat(100%);
+            }
+
+        }
+    }
+
+    @else if $relationship==child and $snap==left {
+        @include breakpoint(mobile) {
+            & {
+                flex: 0 0 auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    }
+
+    
+    @else if $relationship==parent and $snap==right {
+        @include fw()
+        @include breakpoint(mobile) {
+            & {
+                display: flex;
+                list-style-type: none !important;
+                overflow-x: auto;
+                flex-wrap: no-wrap;
+                -webkit-scroll-snap-type: mandatory;
+                scroll-snap-type: x mandatory;
+                -webkit-scroll-snap-points-x: repeat(-100%);
+                scroll-snap-points-x: repeat(-100%);
+            }
+
+        }
+    }
+
+    @else if $relationship==child and $snap==right {
+        @include breakpoint(mobile) {
+            & {
+                flex: 0 0 auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    }
+
+
+}

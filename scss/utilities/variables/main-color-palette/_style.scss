@@ -1,0 +1,19 @@
+// Define color palette. 
+
+$black: #262626;
+$white: invert($black);
+$grey: #eeeeee;
+$gray: $grey;
+$red: #B80945;
+$orange: #C86F1A;
+$yellow: #FFDFA3;
+$green: #81A25A;
+$blue: #5A8CA2;
+$purple: #612D4A;
+
+
+// Color modifier presets
+
+$color-darken: 35%;
+$color-lighten: 35%;
+$color-trans-amount: 0.5;

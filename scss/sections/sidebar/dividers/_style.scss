@@ -1,0 +1,29 @@
+.sidebar-line {
+    margin-top: -1rem !important;
+    margin-bottom: -1rem !important;
+    
+    &--1{
+        border: 8px solid color(red, base)!important;
+        
+    }
+    &--2{
+        border: 8px solid color(green, base) !important;
+       
+    }
+
+    &--3{
+        border: 8px solid color(blue, base) !important;
+        
+    }
+
+    &--4{
+        border: 8px solid color(purple, base);
+      
+    }
+
+
+}
+
+section#custom_html-9 {
+    display: none !important;
+}

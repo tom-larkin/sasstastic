@@ -1,0 +1,49 @@
+
+
+// Main color variable map
+
+$colors: (
+  red: (
+    base: $red,
+    light: lighten($red, $color-lighten),
+    dark: darken($red, $color-darken),
+    trans: transparentize($red, $color-trans-amount),
+    shadow: transparentize($red, $theme-shadow-amount),
+  ),
+  orange: (
+    base: $orange,
+    light: lighten($orange, $color-lighten),
+    dark: darken($orange, $color-darken),
+    trans: transparentize($orange, $color-trans-amount),
+    shadow: transparentize($orange, $theme-shadow-amount),
+  ),
+  yellow: (
+    base: $yellow,
+    light: lighten($yellow, $color-lighten),
+    dark: darken($yellow, $color-darken),
+    trans: transparentize($yellow, $color-trans-amount),
+    shadow: transparentize($yellow, $theme-shadow-amount),
+  ),
+  green: (
+    base: $green,
+    light: lighten($green, $color-lighten),
+    dark: darken($green, $color-darken),
+    trans: transparentize($green, $color-trans-amount),
+    shadow: transparentize($green, $theme-shadow-amount),
+  ),
+  blue: (
+    base: $blue,
+    light: lighten($blue, $color-lighten),
+    dark: darken($blue, $color-darken),
+    trans: transparentize($blue, $color-trans-amount),
+    shadow: transparentize($blue, $theme-shadow-amount),
+  ),
+  purple: (
+    base: $purple,
+    light: lighten($purple, $color-lighten),
+    dark: darken($purple, $color-darken),
+    trans: transparentize($purple, $color-trans-amount),
+    shadow: transparentize($purple, $theme-shadow-amount),
+  )
+);
+

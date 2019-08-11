@@ -1,0 +1,12 @@
+@mixin box($box-shadow-color:rgba(0, 0, 0, 0.21), $distance:default) {
+    @if $distance==default{ 
+    box-shadow: 0 10px 6px -6px $box-shadow-color;
+        
+        }
+        @else if $distance==close{ 
+            box-shadow: 0 10px 6px -3px $box-shadow-color;
+                
+                }
+            }
+  
+       
