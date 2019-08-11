@@ -18,5 +18,5 @@ _toc.scss -> Table of contents file. These files are used solely to run @imports
 
 _sandbox.scss -> A temporary testing ground to ensure a style plays nice with the rest of the document. Once the rule is finalized, transfer the sandbox style to it's own partial. REMEMEBER to @import that partial with in the directory's toc file.
 
-_sandbox.scss -> Finalized styles for the element, variables, mixins, etc. 
+_style.scss -> Finalized styles for the element, variables, mixins, etc. 
 
