@@ -10,6 +10,9 @@
         display: flex;
         margin-left: auto;
         margin-right: auto;
+        @include breakpoint(mobile){
+            width: 100%;
+        }
     }
 
     & fieldset {
@@ -20,6 +23,9 @@
 
     & input.button {
         margin-top: 0rem !important;
+        @include breakpoint (mobile){
+            width: 80%;
+        }
   @include button(color(green, base), white)
     }
     & input#avia_1_1 {
@@ -31,4 +37,9 @@
     }
 
 
+}
+
+p.form_element.form_element_third.modified_width {
+    display: flex;
+    justify-content: center;
 }

@@ -6,10 +6,13 @@
         background-repeat: repeat-x !important;
         position: relative;
         top: 4rem;
+        
+    }
+    @include breakpoint (mobile){&{ 
         margin-top: -9rem;
     }
-    @include breakpoint (mobile){
         &__socket--right {
+           
             position: relative;
             top: 30px;
         }

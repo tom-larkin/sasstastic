@@ -472,10 +472,12 @@ section#custom_html-9 {
   background-repeat: repeat-x !important;
   position: relative;
   top: 4rem;
-  margin-top: -9rem;
 }
 
 @media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: -9rem;
+  }
   .footer__socket--right {
     position: relative;
     top: 30px;
@@ -517,7 +519,7 @@ ul.noLightbox.social_bookmarks.icon_count_2 li a {
   border-radius: .25rem !important;
   margin-right: .3rem;
   cursor: pointer;
-  font-size: .75rem;
+  font-size: .7rem;
   margin-bottom: .5rem;
 }
 
@@ -795,6 +797,12 @@ th, td {
   margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .cta__contact-form {
+    width: 100%;
+  }
+}
+
 .cta fieldset {
   margin-bottom: -1rem;
   margin-top: 1rem;
@@ -817,6 +825,12 @@ th, td {
   background-color: white;
   border: 0px solid white !important;
   box-shadow: 0 10px 6px -6px #81A25A;
+}
+
+@media only screen and (max-width: 600px) {
+  .cta input.button {
+    width: 80%;
+  }
 }
 
 .cta input.button:hover {
@@ -844,6 +858,15 @@ th, td {
 
 .cta input#avia_1_1 :active {
   border: 2px solid #5A8CA2;
+}
+
+p.form_element.form_element_third.modified_width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* //! END CALL TO ACTION */
@@ -942,6 +965,17 @@ th, td {
 @media only screen and (max-width: 600px) {
   .hero__button {
     font-size: .8rem !important;
+  }
+}
+
+.flex_column.av_one_half.av-animated-generic.left-to-right.flex_column_div.first.avia-builder-el-1.el_before_av_one_half.avia-builder-el-first.hero__left {
+  padding: 2rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex_column.av_one_half.av-animated-generic.left-to-right.flex_column_div.first.avia-builder-el-1.el_before_av_one_half.avia-builder-el-first.hero__left {
+    width: 100vw !important;
+    margin-left: -1.94rem !important;
   }
 }
 
