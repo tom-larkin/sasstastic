@@ -468,6 +468,28 @@ section#custom_html-9 {
 /* //! WIDGETS */
 /* //! SIDEBAR */
 /* //* Footer */
+.footer__container {
+  background-repeat: repeat-x !important;
+  position: relative;
+  top: 4rem;
+  margin-top: -9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__socket--right {
+    position: relative;
+    top: 30px;
+  }
+}
+
+ul.noLightbox.social_bookmarks.icon_count_2 li {
+  margin-left: 1.2rem;
+}
+
+ul.noLightbox.social_bookmarks.icon_count_2 li a {
+  font-size: 1.8rem;
+}
+
 /* //! FOOTER */
 /* //* Socket */
 /* //! SOCKET */
@@ -495,7 +517,7 @@ section#custom_html-9 {
   border-radius: .25rem !important;
   margin-right: .3rem;
   cursor: pointer;
-  font-size: .8rem;
+  font-size: .75rem;
   margin-bottom: .5rem;
 }
 
@@ -2167,4 +2189,9 @@ a.veg-archive-name-link {
 /* //* Sandbox */
 /* //! END SANDBOX */
 /* //! END STYLES */
+/*
+
+test
+
+*/
 /*# sourceMappingURL=style.css.map */
