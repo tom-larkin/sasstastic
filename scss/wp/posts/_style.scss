@@ -17,3 +17,10 @@ header.entry-content-header {
 img.attachment-entry_without_sidebar.size-entry_without_sidebar.wp-post-image {
     margin-bottom: .5rem;
 }
+
+
+.entry-content {
+    a {
+        @include link($green, $green)
+    }
+}

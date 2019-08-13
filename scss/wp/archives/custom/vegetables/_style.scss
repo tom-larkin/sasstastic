@@ -62,7 +62,7 @@
     &-name-link {
        
         position: relative;
-        top: 30px;
+        top: 2rem;
         left: 10px;
         z-index: 2 !important;
 }
@@ -72,10 +72,20 @@
     &-image {
         @include box()
     }
+
 }
 
 a.veg-archive-name-link {
-    color: white !important;
-    font-weight: bold;
+    @include link(white,white)
     font-size: .9rem;
-}
+    
+        background-color: #00000085;
+        padding: .2rem .5rem;
+        border-radius: .25rem;
+        top: 2.4rem;
+  
+
+    }
+    
+
+

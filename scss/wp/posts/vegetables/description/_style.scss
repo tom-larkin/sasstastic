@@ -8,7 +8,8 @@
         margin-top: .8rem !important;
         border-radius: .25rem !important;
         font-weight: 500;
-        margin-bottom: -.8rem;
+        margin-bottom: -1rem;
+     
     }
 
     &-wiki-link {
@@ -16,6 +17,9 @@
         margin-right: .4rem !important;
         margin-bottom: .5rem !important;
         margin-top: .6rem;
+        & a {
+            float: right;
+        }
     }
 
     @include breakpoint(mobile){
@@ -30,3 +34,4 @@
 
 
 }
+

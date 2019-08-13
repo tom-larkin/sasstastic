@@ -18,6 +18,8 @@
 
 
 .veg {
+
+   
    
     &-name, &-latin, &-type, &-season, &-availability {
         color: white !important;
@@ -36,8 +38,11 @@
 
     &-type {
         border-radius: .25rem;
-        padding: .01rem .5rem;
+        padding: .02rem .5rem;
         font-weight: bold !important;
+        & a {
+            @include link (white,white)
+        }
     }
 
 
@@ -139,8 +144,10 @@
 
 
 
-p.veg-season a:hover {
-    color: white !important;
+.veg-season {
+    & a{
+    @include link (white, white)
+    }
 }
 p.veg-type a {
     color: white !important;
@@ -149,6 +156,26 @@ p.veg-type a {
 p.veg-availability {
     margin-right: 1.2rem;
     position: relative;
-    top: -1.5rem;
     text-align: right;
+    @include breakpoint(desktop){
+        top: 0rem;
+    }
+    @include breakpoint(mobile){
+
+    top: -1.5rem;
+    
+    }
+}
+
+
+.veg-hero-container > section >  :before {
+    content: "";
+    position: absolute;
+    border-radius: .25rem !important;
+    top: 0;
+    z-index: -111;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,0) 51%,rgba(255,255,255,0) 100%);
 }

@@ -1,5 +1,8 @@
 .cta {
     @include fw()
+    @include breakpoint(desktop){
+        @include box()
+    }
     @include breakpoint(mobile){&{
         border-radius: 0px !important;
         }

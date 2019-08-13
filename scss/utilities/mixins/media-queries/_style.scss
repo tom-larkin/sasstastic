@@ -19,6 +19,11 @@
           @content;
     }
     }
+    @else if $point == xs {
+      @media only screen and (max-width: 400px) {
+            @content;
+      }
+      }
  }
 
 // Automatically generates media queries for an element

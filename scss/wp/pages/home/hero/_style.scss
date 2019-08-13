@@ -1,5 +1,10 @@
 .hero {
 
+    &__link {
+       @include link($blue, white)
+        }
+    
+
     &__title {
         color: white !important; 
     }

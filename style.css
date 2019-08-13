@@ -89,14 +89,20 @@ p:last-of-type {
 
 /* END PARAGRAPHS */
 /* Links */
+a:hover {
+  color: #81A25A;
+}
+
 .link {
   text-decoration: none !important;
   display: inline;
+  color: #81A25A !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, #81A25A));
-  background: linear-gradient(to bottom, white 0%, #81A25A 98%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#81A25A), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, #81A25A 0%, #81A25A 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -104,6 +110,7 @@ p:last-of-type {
 
 .link:hover {
   background-size: 100% 2px;
+  color: #81A25A !important;
 }
 
 /* END LINKS */
@@ -137,6 +144,26 @@ blockquote {
 
 /* //! HEADER */
 /* //* Nav */
+span.avia-menu-text {
+  text-decoration: none !important;
+  display: inline;
+  color: !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(#81A25A), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, #81A25A 0%, #81A25A 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+span.avia-menu-text:hover {
+  background-size: 100% 2px;
+  color: !important;
+}
+
 /* //! NAV */
 /* //* Body */
 /* //! BODY */
@@ -293,16 +320,20 @@ section#custom_html-9 {
   list-style-image: url("https://sqft.specialops.io/wp-content/uploads/root.svg") !important;
 }
 
-.veg-type-list__link--artisan-tomato {
-  color: #B80909 !important;
-  text-decoration: none !important;
+.veg-type-list__link {
   font-size: 1.2rem;
+}
+
+.veg-type-list__link--artisan-tomato {
+  text-decoration: none !important;
   display: inline;
+  color: #B80909 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #B80909));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #B80909 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#B80909), color-stop(98%, #B80909));
+  background: linear-gradient(to bottom, #B80909 0%, #B80909 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -310,18 +341,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--artisan-tomato:hover {
   background-size: 100% 2px;
+  color: #B80909 !important;
 }
 
 .veg-type-list__link--garlic {
-  color: #E4C119 !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #E4C119 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #E4C119));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #E4C119 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#E4C119), color-stop(98%, #E4C119));
+  background: linear-gradient(to bottom, #E4C119 0%, #E4C119 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -329,18 +361,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--garlic:hover {
   background-size: 100% 2px;
+  color: #E4C119 !important;
 }
 
 .veg-type-list__link--herb {
-  color: #5AA27E !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #5AA27E !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #5AA27E));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #5AA27E 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#5AA27E), color-stop(98%, #5AA27E));
+  background: linear-gradient(to bottom, #5AA27E 0%, #5AA27E 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -348,18 +381,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--herb:hover {
   background-size: 100% 2px;
+  color: #5AA27E !important;
 }
 
 .veg-type-list__link--leafy-green {
-  color: #81A25A !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #81A25A !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #81A25A));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #81A25A 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#81A25A), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, #81A25A 0%, #81A25A 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -367,18 +401,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--leafy-green:hover {
   background-size: 100% 2px;
+  color: #81A25A !important;
 }
 
 .veg-type-list__link--leafy-red {
-  color: #B80945 !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #B80945 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #B80945));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #B80945 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#B80945), color-stop(98%, #B80945));
+  background: linear-gradient(to bottom, #B80945 0%, #B80945 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -386,18 +421,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--leafy-red:hover {
   background-size: 100% 2px;
+  color: #B80945 !important;
 }
 
 .veg-type-list__link--microgreen {
-  color: #29BB29 !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #29BB29 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #29BB29));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #29BB29 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#29BB29), color-stop(98%, #29BB29));
+  background: linear-gradient(to bottom, #29BB29 0%, #29BB29 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -405,18 +441,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--microgreen:hover {
   background-size: 100% 2px;
+  color: #29BB29 !important;
 }
 
 .veg-type-list__link--onion {
-  color: #C234C2 !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #C234C2 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #C234C2));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #C234C2 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#C234C2), color-stop(98%, #C234C2));
+  background: linear-gradient(to bottom, #C234C2 0%, #C234C2 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -424,18 +461,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--onion:hover {
   background-size: 100% 2px;
+  color: #C234C2 !important;
 }
 
 .veg-type-list__link--pepper {
-  color: #D27D0D !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #D27D0D !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #D27D0D));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #D27D0D 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#D27D0D), color-stop(98%, #D27D0D));
+  background: linear-gradient(to bottom, #D27D0D 0%, #D27D0D 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -443,18 +481,19 @@ section#custom_html-9 {
 
 .veg-type-list__link--pepper:hover {
   background-size: 100% 2px;
+  color: #D27D0D !important;
 }
 
 .veg-type-list__link--root {
-  color: #916B04 !important;
   text-decoration: none !important;
-  font-size: 1.2rem;
   display: inline;
+  color: #916B04 !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #916B04));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #916B04 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#916B04), color-stop(98%, #916B04));
+  background: linear-gradient(to bottom, #916B04 0%, #916B04 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -462,6 +501,7 @@ section#custom_html-9 {
 
 .veg-type-list__link--root:hover {
   background-size: 100% 2px;
+  color: #916B04 !important;
 }
 
 /* //! VEGETABLE TYPE */
@@ -770,15 +810,25 @@ th, td {
   display: none !important;
 }
 
+a#scroll-top-link {
+  display: none;
+}
+
 /* END BASE WP */
 /* //* Pages */
 /* //* Home */
-/* //* Components */
 /* //* Call to Action */
 @media only screen and (max-width: 600px) {
   .cta {
     width: 100vw !important;
     margin-left: -1.94rem !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cta {
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
+            box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
   }
 }
 
@@ -871,6 +921,26 @@ p.form_element.form_element_third.modified_width {
 
 /* //! END CALL TO ACTION */
 /* //* HERO */
+.hero__link {
+  text-decoration: none !important;
+  display: inline;
+  color: #5A8CA2 !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, white));
+  background: linear-gradient(to bottom, white 0%, white 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.hero__link:hover {
+  background-size: 100% 2px;
+  color: #5A8CA2 !important;
+}
+
 .hero__title {
   color: white !important;
 }
@@ -1595,7 +1665,6 @@ p.form_element.form_element_third.modified_width {
 }
 
 /* //! VEGETABLE TYPE LIST HORIZONTAL LAYOUT */
-/* //! COMPONENTS */
 /* //! HOME */
 /* //* Contact Us */
 .contact-us input.button {
@@ -1640,7 +1709,6 @@ p.form_element.form_element_third.modified_width {
 /* //! PAGES */
 /* //* Posts */
 /* //* Vegetables */
-/* //* Components */
 /* //* Breadcrumbs */
 .breadcrumbs {
   display: -webkit-box !important;
@@ -1688,11 +1756,13 @@ p.form_element.form_element_third.modified_width {
 #main > div > div > main > div > div.breadcrumbs > li:nth-child(4) > a {
   text-decoration: none !important;
   display: inline;
+  color: #81A25A !important;
   padding-bottom: 2px;
+  font-weight: bold;
   -webkit-transition: all 0.10s linear;
   transition: all 0.10s linear;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, #81A25A));
-  background: linear-gradient(to bottom, white 0%, #81A25A 98%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#81A25A), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, #81A25A 0%, #81A25A 98%);
   background-size: 0px 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -1700,6 +1770,7 @@ p.form_element.form_element_third.modified_width {
 
 #main > div > div > main > div > div.breadcrumbs > li:nth-child(4) > a:hover {
   background-size: 100% 2px;
+  color: #81A25A !important;
 }
 
 /* //! BREADCRUMBS */
@@ -1711,7 +1782,7 @@ p.form_element.form_element_third.modified_width {
   margin-top: .8rem !important;
   border-radius: .25rem !important;
   font-weight: 500;
-  margin-bottom: -.8rem;
+  margin-bottom: -1rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1726,6 +1797,10 @@ p.form_element.form_element_third.modified_width {
   margin-right: .4rem !important;
   margin-bottom: .5rem !important;
   margin-top: .6rem;
+}
+
+.veg-wiki-link a {
+  float: right;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1748,8 +1823,13 @@ p.form_element.form_element_third.modified_width {
 .great-with {
   border-radius: .25rem !important;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
-  -webkit-box-shadow: 7px 18px 25px -33px rgba(0, 0, 0, 0.58);
-          box-shadow: 7px 18px 25px -33px rgba(0, 0, 0, 0.58);
+}
+
+@media only screen and (min-width: 1024px) {
+  .great-with {
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
+            box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.21);
+  }
 }
 
 .great-with-items-container {
@@ -1771,6 +1851,28 @@ p.form_element.form_element_third.modified_width {
           flex-direction: column;
 }
 
+.great-with-item-link {
+  text-decoration: none !important;
+  display: inline;
+  color: white !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, white));
+  background: linear-gradient(to bottom, white 0%, white 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+.great-with-item-link:hover {
+  background-size: 100% 2px;
+  color: white !important;
+}
+
 .great-with-item-picture {
   border-radius: 50%;
   border: 5px solid white;
@@ -1783,7 +1885,6 @@ p.form_element.form_element_third.modified_width {
 }
 
 .great-with-item-name {
-  color: white;
   margin-top: 1.5rem !important;
   text-align: center;
   margin-bottom: 1rem !important;
@@ -1835,8 +1936,28 @@ p.form_element.form_element_third.modified_width {
 
 .veg-type {
   border-radius: .25rem;
-  padding: .01rem .5rem;
+  padding: .02rem .5rem;
   font-weight: bold !important;
+}
+
+.veg-type a {
+  text-decoration: none !important;
+  display: inline;
+  color: white !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, white));
+  background: linear-gradient(to bottom, white 0%, white 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.veg-type a:hover {
+  background-size: 100% 2px;
+  color: white !important;
 }
 
 .veg-name {
@@ -1916,7 +2037,23 @@ p.form_element.form_element_third.modified_width {
   }
 }
 
-p.veg-season a:hover {
+.veg-season a {
+  text-decoration: none !important;
+  display: inline;
+  color: white !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, white));
+  background: linear-gradient(to bottom, white 0%, white 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.veg-season a:hover {
+  background-size: 100% 2px;
   color: white !important;
 }
 
@@ -1927,8 +2064,32 @@ p.veg-type a {
 p.veg-availability {
   margin-right: 1.2rem;
   position: relative;
-  top: -1.5rem;
   text-align: right;
+}
+
+@media only screen and (min-width: 1024px) {
+  p.veg-availability {
+    top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p.veg-availability {
+    top: -1.5rem;
+  }
+}
+
+.veg-hero-container > section > :before {
+  content: "";
+  position: absolute;
+  border-radius: .25rem !important;
+  top: 0;
+  z-index: -111;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(35%, rgba(0, 0, 0, 0)), color-stop(51%, rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 51%, rgba(255, 255, 255, 0) 100%);
 }
 
 /* //! HERO */
@@ -2021,7 +2182,6 @@ p.veg-great-source-heading {
 }
 
 /* //! VITAMINS & NUTRIENTS */
-/* //! COMPONENTS */
 /* //! VEGETABLES */
 span.blog-tags.minor-meta {
   visibility: hidden;
@@ -2038,6 +2198,26 @@ header.entry-content-header h1 {
 
 img.attachment-entry_without_sidebar.size-entry_without_sidebar.wp-post-image {
   margin-bottom: .5rem;
+}
+
+.entry-content a {
+  text-decoration: none !important;
+  display: inline;
+  color: #81A25A !important;
+  padding-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(#81A25A), color-stop(98%, #81A25A));
+  background: linear-gradient(to bottom, #81A25A 0%, #81A25A 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.entry-content a:hover {
+  background-size: 100% 2px;
+  color: #81A25A !important;
 }
 
 /* //! END POSTS */
@@ -2094,7 +2274,7 @@ img.attachment-entry_without_sidebar.size-entry_without_sidebar.wp-post-image {
 
 .veg-archive-name-link {
   position: relative;
-  top: 30px;
+  top: 2rem;
   left: 10px;
   z-index: 2 !important;
 }
@@ -2109,9 +2289,28 @@ img.attachment-entry_without_sidebar.size-entry_without_sidebar.wp-post-image {
 }
 
 a.veg-archive-name-link {
+  text-decoration: none !important;
+  display: inline;
   color: white !important;
+  padding-bottom: 2px;
   font-weight: bold;
+  -webkit-transition: all 0.10s linear;
+  transition: all 0.10s linear;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(98%, white));
+  background: linear-gradient(to bottom, white 0%, white 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
   font-size: .9rem;
+  background-color: #00000085;
+  padding: .2rem .5rem;
+  border-radius: .25rem;
+  top: 2.4rem;
+}
+
+a.veg-archive-name-link:hover {
+  background-size: 100% 2px;
+  color: white !important;
 }
 
 /* //! VEGETABLES */
@@ -2313,6 +2512,25 @@ a.veg-archive-name-link {
 /* //! WOO COMMERCE */
 /* //! WORDPRESS */
 /* //* Sandbox */
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell-image {
+  display: block;
+  height: 400px;
+  min-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
 /* //! END SANDBOX */
 /* //! END STYLES */
 /*
