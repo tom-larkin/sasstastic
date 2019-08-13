@@ -1,0 +1,37 @@
+.veg {
+
+    &-description {
+        @include fw()
+        background-color: $grey !important;
+        padding: 1.4rem;
+        text-align: center;
+        margin-top: .8rem !important;
+        border-radius: .25rem !important;
+        font-weight: 500;
+        margin-bottom: -1rem;
+     
+    }
+
+    &-wiki-link {
+        text-align: right !important;
+        margin-right: .4rem !important;
+        margin-bottom: .5rem !important;
+        margin-top: .6rem;
+        & a {
+            float: right;
+        }
+    }
+
+    @include breakpoint(mobile){
+    
+        &-description {
+            margin-top: -.09rem !important;
+            border-radius: 0px !important;
+        }
+    
+    }
+
+
+
+}
+

@@ -1,0 +1,31 @@
+.veg-type-list {
+    line-height: 2.3rem;
+    font-weight: bold;
+    
+        &__item {
+            list-style: disc inside !important;
+            margin-left: .1em;
+            
+
+                @each $veg-type in $veg-types {
+                    &--#{$veg-type} {
+                    list-style-image:url($img-path+$veg-type+'.svg') !important;
+                    }
+                }
+        }
+        &__link {
+            font-size: 1.2rem;
+            @each $veg-type in $veg-types {
+                &--#{$veg-type} {
+                    
+                    @include link(vegetable($veg-type, base), vegetable($veg-type, base))
+                    
+               
+                
+            }
+        }
+}
+
+}
+
+

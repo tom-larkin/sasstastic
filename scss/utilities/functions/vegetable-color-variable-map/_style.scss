@@ -1,0 +1,11 @@
+// Main color map `color(red, base)'
+
+@function vegetable($veg-color-name, $veg-color-variant:null) {
+  // color variant is optional
+  @if ($veg-color-variant != null) {
+    // map inception
+    @return map-get(map-get($vegetable, $veg-color-name), $veg-color-variant);
+  } @else {
+    @return map-get($vegetable, $veg-color-name);
+  }
+}

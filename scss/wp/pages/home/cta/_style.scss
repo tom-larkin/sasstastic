@@ -1,0 +1,48 @@
+.cta {
+    @include fw()
+    @include breakpoint(desktop){
+        @include box()
+    }
+    @include breakpoint(mobile){&{
+        border-radius: 0px !important;
+        }
+    }
+
+    &__contact-form {
+        width: 80%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        @include breakpoint(mobile){
+            width: 100%;
+        }
+    }
+
+    & fieldset {
+        margin-bottom: -1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    & input.button {
+        margin-top: 0rem !important;
+        @include breakpoint (mobile){
+            width: 80%;
+        }
+  @include button(color(green, base), white)
+    }
+    & input#avia_1_1 {
+        padding: 0.45rem 1.5rem !important;
+        border-radius: .25rem !important;
+        & :active {
+            border: 2px solid color(blue, base);
+        }
+    }
+
+
+}
+
+p.form_element.form_element_third.modified_width {
+    display: flex;
+    justify-content: center;
+}

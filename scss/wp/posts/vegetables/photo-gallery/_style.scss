@@ -1,0 +1,12 @@
+.veg-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: .5rem;
+    padding: .5rem;
+    & img {
+        width: 100%;
+        &:hover {
+            width: 103%;
+        }
+    }
+}

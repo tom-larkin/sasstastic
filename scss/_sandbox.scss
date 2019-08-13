@@ -1,2 +1,18 @@
-
-
+.carousel {
+    background: #FAFAFA;
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    height: 400px;
+    min-width: 200px;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }

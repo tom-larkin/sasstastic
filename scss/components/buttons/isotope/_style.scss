@@ -1,0 +1,97 @@
+.isotope-btn {
+    border: none;
+    padding: .2rem .5rem;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: .25rem !important;
+    margin-right: .3rem;
+    cursor: pointer;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+    
+
+
+    @each $veg-type in $veg-types {
+        &-#{$veg-type} {
+            background-color: white;
+            border: 2px solid vegetable($veg-type, trans);
+            color:vegetable($veg-type, base);
+            outline: 0;
+
+
+            &:hover {
+                background-color: vegetable($veg-type, trans);
+                border: 2px solid vegetable($veg-type, trans) !important;
+                color: white;
+            }
+
+            &:focus {
+                background-color: vegetable($veg-type, base);
+                border: 2px solid vegetable($veg-type, base);
+                color: white;
+
+                
+            }
+        }
+
+
+    } 
+
+    &-all{
+
+        background-color: white;
+        border: 2px solid #444444;
+        color: #444444;
+        outline: 0;
+        margin-right: .25rem !important;
+
+       
+
+
+
+        &:hover {
+            border: 2px solid #999999;
+            background-color: #999999;
+            color: white;
+        
+        }
+
+        &:focus {
+            background-color: #444444;
+            border: 2px solid #444444;
+            color: white;
+           
+        }
+
+
+    }
+    &--shuffle {
+        background-color: white;
+        border: 2px solid #444444;
+        color: color(purple,base);
+        outline: 0;
+        margin-right: .25rem !important;
+
+       
+
+
+
+        &:hover {
+            border: 2px solid color(purple,trans);
+            background-color: color(purple,trans);
+            color: white;
+        
+        }
+
+        &:focus {
+            background-color: color(purple, base);
+            border: 2px solid color(purple,base);
+            color: white;
+           
+        }    
+    }
+
+}
+
+

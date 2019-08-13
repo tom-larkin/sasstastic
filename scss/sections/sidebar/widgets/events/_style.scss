@@ -1,0 +1,43 @@
+.calendar-widget {
+    /* Global */
+        display: flex;
+        width: 100%;
+        margin-left: -.5rem;
+    /* END GLOBAL */
+    /* Child Items */
+            &__date {
+                font-size: 1.4rem;
+                color: color(green,base) !important;
+            }
+            &__title {
+                font-size: 1.2rem;
+                margin-bottom: -.8rem;
+            }
+            &__details-container {
+                padding: .5rem;
+                margin-top: .2rem;
+            }
+    
+            @include breakpoint(mobile){
+                &__details-container {
+                    margin-top: .6rem;
+                }
+            }
+    
+            &__date-container {
+                width: 25%;
+                margin-left: -.5rem;
+                padding: .5rem;
+                text-align: center;
+                font-weight: bolder;
+            }
+            @include breakpoint(mobile){
+    
+                &__date-container {
+                    padding: 1rem;
+                    color: red;
+                    width: 20%;
+                }
+                }
+    }
+    /* END CHILD ITEMS */   

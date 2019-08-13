@@ -1,0 +1,48 @@
+.hero {
+
+    &__link {
+       @include link($blue, white)
+        }
+    
+
+    &__title {
+        color: white !important; 
+    }
+
+    &__description {
+        color: white;
+    }
+
+    &__buttons {
+        
+        margin-right: .5rem;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    &__button {
+       
+        &--left{
+            @include button(color(green, base), solid)
+        }
+        &--right {
+            @include button(color(red, base), solid)
+        }
+    }
+
+}
+
+@include breakpoint(mobile){
+    .hero { 
+        &__button {
+            font-size: .8rem !important;
+        }
+    }
+}
+
+
+.flex_column.av_one_half.av-animated-generic.left-to-right.flex_column_div.first.avia-builder-el-1.el_before_av_one_half.avia-builder-el-first.hero__left {
+    @include fw()
+    padding: 2rem !important;
+}
